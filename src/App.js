@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ComponenteTituloH1 from './Clase2/ComponentetituloH1';
+import ComponenteLista from './Clase2/ComponenteLista';
+import ComponenteTituloConParrafo from './Clase2/ComponenteTituloConParrafo';
+import TituloH1ConEstilo from './Clase2/TituloH1ConEstilo';
+import TituloH1ConMuchosEstilos from './Clase2/TituloH1ConMuchosEstilos';
+import ComponenteNoticias from './Clase2/ComponenteNoticias';
+import TituloH1ConMultiplesEstilos from './Clase2/TituloH1ConMultiplesEstilos';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <ComponenteTituloH1/>
+      <ComponenteLista/>
+      <ComponenteTituloConParrafo/>
+      <TituloH1ConEstilo/>
+      <TituloH1ConMuchosEstilos/>
+      <ComponenteNoticias/>
+      <TituloH1ConMultiplesEstilos />
     </div>
   );
 }
+
+
 
 export default App;
