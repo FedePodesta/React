@@ -8,7 +8,8 @@ import './App.css';
 // import TituloH1ConMuchosEstilos from './Clase2/TituloH1ConMuchosEstilos';
 // import ComponenteNoticias from './Clase2/ComponenteNoticias';
 // import TituloH1ConMultiplesEstilos from './Clase2/TituloH1ConMultiplesEstilos';
-import ComponenteConImagen from './Clase2/ComponenteConImagen';
+//import ComponenteConImagen from './Clase2/ComponenteConImagen';
+import ComponenteInfoBae from './Clase2/ComponenteInfoBae';
 
 
 function App() {
@@ -20,8 +21,9 @@ function App() {
       <TituloH1ConEstilo/>
       <TituloH1ConMuchosEstilos/>
       <ComponenteNoticias/>
-      <TituloH1ConMultiplesEstilos /> */}
-      <ComponenteConImagen/>
+      <TituloH1ConMultiplesEstilos />
+      <ComponenteConImagen/> */}
+      <ComponenteInfoBae/>
     </div>
   );
 }

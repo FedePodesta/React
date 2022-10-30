@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react"
 
 
 // EJERCICIO 4
@@ -7,7 +7,9 @@ function ComponenteNoticias(){
 
 
 const estiloH1 = {
-    fontSize : "80px"
+    fontSize : "80px",
+    padding: "200px"
+    
 }
 
 const estiloP1 = {
